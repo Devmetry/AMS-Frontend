@@ -1,17 +1,17 @@
 
 import './App.css';
-import Login from './Components/login/Login';
-import Signup from './Components/signup/Signup';
-import Navigation from './Components/navigator/Navigation';
-import Dashbord from './Components/dashBord/Dashbord';
+import Login from './components/login/login';
+import Signup from './components/signup/signup';
+import Navigation from './components/navigator/navigation';
+import Dashboard from './components/dashboard/dashboard';
 import './App.css';
 import { BrowserRouter } from 'react-router-dom';
 import{
   Switch,
   Route
 } from 'react-router-dom';
-import Inventory from './Components/Inventory/Inventory';
-import IProduction from './Components/I-Production/IProduction';
+import Inventory from './components/inventory/inventory';
+import Production from './components/inventory/_production';
 
 
 
@@ -22,17 +22,21 @@ function App() {
 
       <BrowserRouter>
         <Switch>
-          <Route path="/login"> <Login/> </Route>
-          <Route path="/sign"> <Signup/> </Route>
-          <Route path="/dash"> <Dashbord/> </Route>
-          <Route path="/inventory"> <Inventory/> </Route>
-          <IProduction/>
-       
+          <Route path="/login">
+            <Login/> 
+          </Route>
+          <Route path="/sign">
+            <Signup/>
+          </Route>
+          <Route path="/dashboard">
+            <Dashboard/>
+          </Route>
+          <Route path="/inventory">
+            <Inventory/>
+          </Route>
+          <Production />
         </Switch>
       </BrowserRouter>
-    
-    
-
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class IProduction extends Component {
+export default class Production extends Component {
     render() {
         return (
             <div>

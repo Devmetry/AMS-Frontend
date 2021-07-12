@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './InventoryStyles.css';
+import './inventoryStyles.css';
 
 export default class Inventory extends Component {
     render() {

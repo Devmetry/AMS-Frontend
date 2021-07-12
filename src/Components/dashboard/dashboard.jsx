@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './DashbordStyles.css';
+import './dashboardStyles.css';
 
-export default class Dashbord extends Component {
+export default class Dashboard extends Component {
     render() {
         return (
             <div >
