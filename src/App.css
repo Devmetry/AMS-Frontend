@@ -1,4 +1,13 @@
-.App {
+.bg-primary{
+  background-color: #45a29e !important;
+}
+
+.text-primary{
+  color: #1F2833 !important;
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +44,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
