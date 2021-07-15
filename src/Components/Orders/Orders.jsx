@@ -1,27 +1,16 @@
 import React, { Component } from 'react';
-import './InventoryStyles.css';
 
-export default class Inventory extends Component {
+
+export default class Orders extends Component {
     render() {
         return (
             <div>
                 <div>
-                    <h1 align="center">INVENTORY</h1>
+                    <h1 align="center">ORDERS</h1>
                     
                 </div>
 
-                <div className="card text-center card">
-        <div className="card-header ">
-          <ul className="nav nav-tabs card-header-tabs">
-            <li className="nav-item">
-              <a className="nav-link active" href="#">Customers</a>
-            </li>
-            
-            <li className="nav-item">
-              <a className="nav-link card-names" href="/IProduction">Production</a>
-            </li>
-          </ul>
-        </div>
+               
        
 
         <div>
@@ -38,7 +27,7 @@ export default class Inventory extends Component {
             <div className="table-wrapper">
               <div className="table-title">
                 <div className="row">
-                  <div className="col-sm-8 title"><h2>Customer <b>Details</b></h2></div>
+                  <div className="col-sm-8 title"><h2>Order <b>Details</b></h2></div>
                   <div className="col-sm-4">
                   
                     <div className="search-box">
@@ -47,7 +36,7 @@ export default class Inventory extends Component {
                       
                     </div>
                     <div className="col-sm-7">
-                    <a href="#" className="btn btn-secondary  pagination"><i className="material-icons"></i> <span>Add New User</span></a>
+                    <a href="/new1" className="btn btn-secondary  pagination"><i className="material-icons"></i> <span>Add New Order</span></a>
                     						
                   </div>
                   </div>
@@ -150,8 +139,7 @@ export default class Inventory extends Component {
         </div>   
       </div>
             </div>
-
-            </div>
+            
         )
     }
 }

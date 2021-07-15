@@ -12,6 +12,13 @@ import{
 } from 'react-router-dom';
 import Inventory from './Components/Inventory/Inventory';
 import IProduction from './Components/I-Production/IProduction';
+import Orders from './Components/Orders/Orders';
+import Sales from './Components/Sales/Sales';
+import Analytics from './Components/Analytics/Analytics';
+import SignOut from './Components/SignOut/SignOut';
+
+
+
 
 
 
@@ -19,20 +26,30 @@ function App() {
   return (
     <div className="App">
       <Navigation/>
+     
 
       <BrowserRouter>
         <Switch>
+          <Route path="/"><Dashbord/></Route>
           <Route path="/login"> <Login/> </Route>
           <Route path="/sign"> <Signup/> </Route>
           <Route path="/dash"> <Dashbord/> </Route>
           <Route path="/inventory"> <Inventory/> </Route>
-          <IProduction/>
-       
+          <Route path="/orders"> <Orders/> </Route>
+          <Route path="/sales"> <Sales/> </Route>
+          <Route path="/analytics"> <Analytics/> </Route>
+          <Route path="/IProduction"> <IProduction/> </Route>
+          <Route path="/SignOut"> <SignOut/> </Route>
+          
+         
+         
+          {/* <IProduction/> */}
+         
+        
         </Switch>
+        
       </BrowserRouter>
-    
-    
-
+      
     </div>
   );
 }
