@@ -24,7 +24,7 @@ export default class Dashbord extends Component {
           <div className="card-body">
             <h5 className="card-title">Secondary card title</h5>
             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a class="btn btn-secondary" href="#" role="button">Go to Sales</a>
+            <a class="btn btn-secondary" href="/sales" role="button">Go to Sales</a>
           </div>
         </div>
 
@@ -33,7 +33,7 @@ export default class Dashbord extends Component {
           <div className="card-body">
             <h5 className="card-title">Success card title</h5>
             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a class="btn btn-success" href="#" role="button">Go to Orders</a>
+            <a class="btn btn-success" href="/orders" role="button">Go to Orders</a>
           </div>
         </div>
        
@@ -44,7 +44,7 @@ export default class Dashbord extends Component {
           <div className="card-body">
             <h5 className="card-title">Dark card title</h5>
             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a class="btn btn-dark" href="#" role="button">Go to Analytics</a>
+            <a class="btn btn-dark" href="/analytics" role="button">Go to Analytics</a>
           </div>
         </div>
       </div>

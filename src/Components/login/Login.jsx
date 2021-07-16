@@ -56,7 +56,8 @@ export default class Login extends Component {
                         <label className="form-check-label" htmlFor="exampleCheck1">Check me out</label>
                     </div>
                    
-                    <button type="submit" className="btn submit-button">Submit</button>
+                    <button type="submit" className="btn submit-button">Login</button>
+                    <a type="submit" role="button" href="/sign" className="btn submit-button">Sign-in</a>
                 </form>
                 </div>
                 

@@ -1,27 +1,16 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-export default class IProduction extends Component {
+
+export default class Orders extends Component {
     render() {
         return (
             <div>
-                    <div>
-                    <h1 align="center">INVENTORY</h1>
+                <div>
+                    <h1 align="center">ORDERS</h1>
                     
-                    </div>
+                </div>
 
-
-                    <div className="card text-center card">
-        <div className="card-header ">
-          <ul className="nav nav-tabs card-header-tabs">
-            <li className="nav-item">
-              <a className="nav-link card-names" href="/Inventory">Customers</a>
-            </li>
-           
-            <li className="nav-item">
-              <a className="nav-link active" href="IProduction">Production</a>
-            </li>
-          </ul>
-        </div>
+               
        
 
         <div>
@@ -38,14 +27,16 @@ export default class IProduction extends Component {
             <div className="table-wrapper">
               <div className="table-title">
                 <div className="row">
-                  <div className="col-sm-8 title"><h2>Production <b>Details</b></h2></div>
+                  <div className="col-sm-8 title"><h2>Order <b>Details</b></h2></div>
                   <div className="col-sm-4">
+                  
                     <div className="search-box">
                       <i className="material-icons"></i>
                       <input type="text" className="form-control" placeholder="Search…" />
+                      
                     </div>
                     <div className="col-sm-7">
-                    <a href="/ProductNew" className="btn btn-secondary  pagination"><i className="material-icons"></i> <span>Add New Product</span></a>
+                    <a href="/OrderNew" className="btn btn-secondary  pagination"><i className="material-icons"></i> <span>Add New Order</span></a>
                     						
                   </div>
                   </div>
@@ -55,11 +46,11 @@ export default class IProduction extends Component {
                 <thead>
                   <tr>
                     <th>#</th>
-                    <th>Name <i className="fa fa-sort" /></th>
-                    <th>Address</th>
-                    <th>City <i className="fa fa-sort" /></th>
-                    <th>Pin Code</th>
-                    <th>Country <i className="fa fa-sort" /></th>
+                    <th>Item Name <i className="fa fa-sort" /></th>
+                    <th>Order Type</th>
+                    <th>Quantity <i className="fa fa-sort" /></th>
+                   
+                    <th>Remarks <i className="fa fa-sort" /></th>
                     <th>Actions</th>
                   </tr>
                 </thead>
@@ -69,7 +60,7 @@ export default class IProduction extends Component {
                     <td>Thomas Hardy</td>
                     <td>89 Chiaroscuro Rd.</td>
                     <td>Portland</td>
-                    <td>97219</td>
+                   
                     <td>USA</td>
                     <td>
                       <a href="#" className="view" title="View" data-toggle="tooltip"><i className="material-icons"></i></a>
@@ -82,7 +73,7 @@ export default class IProduction extends Component {
                     <td>Maria Anders</td>
                     <td>Obere Str. 57</td>
                     <td>Berlin</td>
-                    <td>12209</td>
+                    
                     <td>Germany</td>
                     <td>
                       <a href="#" className="view" title="View" data-toggle="tooltip"><i className="material-icons"></i></a>
@@ -95,7 +86,7 @@ export default class IProduction extends Component {
                     <td>Fran Wilson</td>
                     <td>C/ Araquil, 67</td>
                     <td>Madrid</td>
-                    <td>28023</td>
+                    
                     <td>Spain</td>
                     <td>
                       <a href="#" className="view" title="View" data-toggle="tooltip"><i className="material-icons"></i></a>
@@ -108,7 +99,7 @@ export default class IProduction extends Component {
                     <td>Dominique Perrier</td>
                     <td>25, rue Lauriston</td>
                     <td>Paris</td>
-                    <td>75016</td>
+                    
                     <td>France</td>
                     <td>
                       <a href="#" className="view" title="View" data-toggle="tooltip"><i className="material-icons"></i></a>
@@ -121,7 +112,7 @@ export default class IProduction extends Component {
                     <td>Martin Blank</td>
                     <td>Via Monte Bianco 34</td>
                     <td>Turin</td>
-                    <td>10100</td>
+                    
                     <td>Italy</td>
                     <td>
                       <a href="#" className="view" title="View" data-toggle="tooltip"><i className="material-icons"></i></a>
@@ -148,8 +139,7 @@ export default class IProduction extends Component {
         </div>   
       </div>
             </div>
-
-            </div>
+            
         )
     }
 }

@@ -18,7 +18,7 @@ export default class Inventory extends Component {
             </li>
             
             <li className="nav-item">
-              <a className="nav-link card-names" href="/productionDetails">Production</a>
+              <a className="nav-link card-names" href="/IProduction">Production</a>
             </li>
           </ul>
         </div>
@@ -47,7 +47,7 @@ export default class Inventory extends Component {
                       
                     </div>
                     <div className="col-sm-7">
-                    <a href="#" className="btn btn-secondary  pagination"><i className="material-icons"></i> <span>Add New User</span></a>
+                    <a href="/sign" className="btn btn-secondary  pagination"><i className="material-icons"></i> <span>Add New User</span></a>
                     						
                   </div>
                   </div>
