@@ -17,6 +17,10 @@ import Sales from './Components/Sales/Sales';
 import Analytics from './Components/Analytics/Analytics';
 import SignOut from './Components/SignOut/SignOut';
 
+import UserNew from './Components/UserNew/UserNew';
+import OrderNew from './Components/OrderNew/OrderNew';
+import ProductNew from './Components/ProductNew/ProductNew';
+
 
 
 
@@ -30,7 +34,7 @@ function App() {
 
       <BrowserRouter>
         <Switch>
-          <Route path="/"><Dashbord/></Route>
+          {/* <Route path="/"><Dashbord/></Route> */}
           <Route path="/login"> <Login/> </Route>
           <Route path="/sign"> <Signup/> </Route>
           <Route path="/dash"> <Dashbord/> </Route>
@@ -40,7 +44,9 @@ function App() {
           <Route path="/analytics"> <Analytics/> </Route>
           <Route path="/IProduction"> <IProduction/> </Route>
           <Route path="/SignOut"> <SignOut/> </Route>
-          
+          <Route path="/OrderNew"> <OrderNew/> </Route>
+          <Route path="/UserNew"> <UserNew/> </Route>
+          <Route path="/ProductNew"> <ProductNew/> </Route>
          
          
           {/* <IProduction/> */}

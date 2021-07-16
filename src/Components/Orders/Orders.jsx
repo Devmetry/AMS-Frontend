@@ -36,7 +36,7 @@ export default class Orders extends Component {
                       
                     </div>
                     <div className="col-sm-7">
-                    <a href="/new1" className="btn btn-secondary  pagination"><i className="material-icons"></i> <span>Add New Order</span></a>
+                    <a href="/OrderNew" className="btn btn-secondary  pagination"><i className="material-icons"></i> <span>Add New Order</span></a>
                     						
                   </div>
                   </div>
@@ -46,11 +46,11 @@ export default class Orders extends Component {
                 <thead>
                   <tr>
                     <th>#</th>
-                    <th>Name <i className="fa fa-sort" /></th>
-                    <th>Address</th>
-                    <th>City <i className="fa fa-sort" /></th>
-                    <th>Pin Code</th>
-                    <th>Country <i className="fa fa-sort" /></th>
+                    <th>Item Name <i className="fa fa-sort" /></th>
+                    <th>Order Type</th>
+                    <th>Quantity <i className="fa fa-sort" /></th>
+                   
+                    <th>Remarks <i className="fa fa-sort" /></th>
                     <th>Actions</th>
                   </tr>
                 </thead>
@@ -60,7 +60,7 @@ export default class Orders extends Component {
                     <td>Thomas Hardy</td>
                     <td>89 Chiaroscuro Rd.</td>
                     <td>Portland</td>
-                    <td>97219</td>
+                   
                     <td>USA</td>
                     <td>
                       <a href="#" className="view" title="View" data-toggle="tooltip"><i className="material-icons"></i></a>
@@ -73,7 +73,7 @@ export default class Orders extends Component {
                     <td>Maria Anders</td>
                     <td>Obere Str. 57</td>
                     <td>Berlin</td>
-                    <td>12209</td>
+                    
                     <td>Germany</td>
                     <td>
                       <a href="#" className="view" title="View" data-toggle="tooltip"><i className="material-icons"></i></a>
@@ -86,7 +86,7 @@ export default class Orders extends Component {
                     <td>Fran Wilson</td>
                     <td>C/ Araquil, 67</td>
                     <td>Madrid</td>
-                    <td>28023</td>
+                    
                     <td>Spain</td>
                     <td>
                       <a href="#" className="view" title="View" data-toggle="tooltip"><i className="material-icons"></i></a>
@@ -99,7 +99,7 @@ export default class Orders extends Component {
                     <td>Dominique Perrier</td>
                     <td>25, rue Lauriston</td>
                     <td>Paris</td>
-                    <td>75016</td>
+                    
                     <td>France</td>
                     <td>
                       <a href="#" className="view" title="View" data-toggle="tooltip"><i className="material-icons"></i></a>
@@ -112,7 +112,7 @@ export default class Orders extends Component {
                     <td>Martin Blank</td>
                     <td>Via Monte Bianco 34</td>
                     <td>Turin</td>
-                    <td>10100</td>
+                    
                     <td>Italy</td>
                     <td>
                       <a href="#" className="view" title="View" data-toggle="tooltip"><i className="material-icons"></i></a>

@@ -65,10 +65,15 @@ export default class Navigation extends Component {
           <a className="dropdown-item" href="#">Something else here</a>
           <div className="dropdown-divider" />
           <a className="dropdown-item" href="#">Separated link</a>
+          
         </div>
       </div>
                     </nav>
                    
+
+                   
+
+
                 </div>
         )
     }

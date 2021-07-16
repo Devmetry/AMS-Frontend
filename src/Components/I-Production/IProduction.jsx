@@ -45,7 +45,7 @@ export default class IProduction extends Component {
                       <input type="text" className="form-control" placeholder="Search…" />
                     </div>
                     <div className="col-sm-7">
-                    <a href="#" className="btn btn-secondary  pagination"><i className="material-icons"></i> <span>Add New Product</span></a>
+                    <a href="/ProductNew" className="btn btn-secondary  pagination"><i className="material-icons"></i> <span>Add New Product</span></a>
                     						
                   </div>
                   </div>
